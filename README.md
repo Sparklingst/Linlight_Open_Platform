@@ -1,5 +1,3 @@
-#粼光开放平台
-# Linlight_Open_Platform
 ## 数据库数据说明
 ### `app_data`表
 
@@ -14,11 +12,11 @@ api/api_getAppData_AppId.php
 | ---- | ---- | ---- | ---- | ---- |
 | AppId | POST | 是 | int | 应用在数据库中的序列标识 |
 #### 返回值
-| 返回参数 | 数据类型 | 备注 |  |
-| ---- | ---- | ---- | ---- |
-| code | int | 获取成功为1，不成功为非1 |  |
-| message | string |  |  |
-| data | array | 获取到应用的信息 |  |
+| 返回参数 | 数据类型 | 备注 |
+| ---- | ---- | ---- |
+| code | int | 获取成功为1，不成功为非1 |
+| message | string |  |
+| data | array | 获取到应用的信息 |
 
 #### 调用示例
 
